@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Kontaktlista</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-group">
+            <input type="text" id="name" placeholder="Namn">
+        </div>
+        <div class="form-group">
+            <input type="text" id="phone" placeholder="Telefonnummer">
+        </div>
+
+        <button id="add-contact-btn">Lägg till kontakt</button>
+        <button id="clear-btn">Radera lista</button>
+    </div>
+
+    <div class="error" id="error-message"></div>
+    <div class="contact-list" id="contact-list">
+        <h2>Kontaktlista</h2>
+        <ul id="contacts"></ul>
+    </div>
+
+    
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
